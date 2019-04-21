@@ -1,0 +1,1143 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="descrption" content="wikipedia">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>wikipedia</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        header {
+            padding: 30px;
+            text-align: right;
+            font-size: 12px;
+            color: white;
+        }
+
+        img.as {
+            float: left;
+        }
+
+        .ab {
+            float: right;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #e9e9e9;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        .topnav .search-container {
+            float: right;
+        }
+
+        .topnav input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+        }
+
+        .topnav .search-container button {
+            float: right;
+            padding: 6px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .topnav .search-container button:hover {
+            background: #ccc;
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav .search-container {
+                float: none;
+            }
+
+            .topnav a,
+            .topnav input[type=text],
+            .topnav .search-container button {
+                float: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+                padding: 14px;
+            }
+
+            .topnav input[type=text] {
+                border: 1px solid #ccc;
+            }
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid rgb(37, 79, 156);
+            text-align: left;
+
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(255, 255, 255);
+        }
+
+        ul {
+            counter-reset: item
+        }
+
+
+
+        ol {
+            counter-reset: item
+        }
+
+        li {
+            display: block
+        }
+
+        li:before {
+            content: counters(item, ".") " ";
+            counter-increment: item
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="https://en.wikipedia.org/wiki/Special:MyTalk">Talk</a>
+        <a href="https://en.wikipedia.org/wiki/Special:MyContributions">Contribution</a>
+        <a href="https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Elon+Musk">Create account</a>
+        <a href="https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Elon+Musk">Log in</a>
+    </header>
+    <div class="topnav">
+        <a href="https://en.wikipedia.org/wiki/Elon_Musk">Article</a>
+        <a href="https://en.wikipedia.org/wiki/Talk:Elon_Musk">Talk</a>
+        <a href="https://en.wikipedia.org/wiki/Elon_Musk">Read</a>
+        <a href="https://en.wikipedia.org/w/index.php?title=Elon_Musk&action=edit">View source</a>
+        <a href="https://en.wikipedia.org/w/index.php?title=Elon_Musk&action=history">View history</a>
+        <div class="search-container">
+            <input type="search" placeholder="search wikipedia">
+            <input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists"
+                id="sarchButton" class="searchButton">
+        </div>
+    </div>
+    <section>
+        <img
+            src="download.jpg">
+        <ul>
+
+            <li><a href="https://en.wikipedia.org/wiki/Main_Page">MAin page</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Portal:Contents">Contents</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Portal:Featured_content">Featured content</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Portal:Current_events">Current events</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Special:Random">Random articles</a></li>
+            <li><a
+                    href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en">Donate
+                    to Wikipedia</a></li>
+            <li><a href="https://shop.wikimedia.org/">Wikipedia store</a></li>
+        </ul>
+        <h5>Interaction</h5>
+        <hr>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Help:Contents">Help</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Wikipedia:About">About Wikipedia</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Community_portal">Comunity portal</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Special:RecentChanges">Recent Changes</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact page</a></li>
+        </ul>
+        <h5>Tools</h5>
+        <hr>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Special:WhatLinksHere/Elon_Musk">What links here</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Elon_Musk">Related changes</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard">Upload files</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Special:SpecialPages">Special pages</a></li>
+            <li><a href="https://en.wikipedia.org/w/index.php?title=Elon_Musk&oldid=890579497">Permenant link</a></li>
+            <li><a href="https://en.wikipedia.org/w/index.php?title=Elon_Musk&action=info">Page infromation</a></li>
+            <li><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q317521">Wikipedia item</a></li>
+            <li><a href="https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&page=Elon_Musk&id=890579497">Cite
+                    this page</a></li>
+        </ul>
+        <h5>Languages</h5>
+        <hr>
+        <ul>
+            <li><a href="https://ar.wikipedia.org/wiki/%D8%A5%D9%8A%D9%84%D9%88%D9%86_%D9%85%D8%B3%D9%83">العربية</a>
+            </li>
+            <li><a href="https://es.wikipedia.org/wiki/Elon_Musk">Español</a></li>
+            <li><a
+                    href="https://fa.wikipedia.org/wiki/%D8%A7%DB%8C%D9%84%D8%A7%D9%86_%D9%85%D8%A7%D8%B3%DA%A9">فارسی</a>
+            </li>
+            <li><a
+                    href="https://hi.wikipedia.org/wiki/%E0%A4%8F%E0%A4%B2%E0%A4%A8_%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%95">हिन्दी</a>
+            </li>
+            <li><a href="https://id.wikipedia.org/wiki/Elon_Musk">Bahasa Indonesia</a></li>
+            <li><a
+                    href="https://pa.wikipedia.org/wiki/%E0%A8%88%E0%A8%B2%E0%A8%BE%E0%A8%A8_%E0%A8%AE%E0%A8%B8%E0%A8%95">ਪੰਜਾਬੀ</a>
+            </li>
+            <li><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%BA,_%D0%98%D0%BB%D0%BE%D0%BD">Русский</a>
+            </li>
+            <li><a href="https://ur.wikipedia.org/wiki/%D8%A7%DB%8C%D9%84%D9%88%D9%86_%D9%85%D8%B3%DA%A9">اردو</a></li>
+            <li><a href="https://zh.wikipedia.org/wiki/%E4%BC%8A%E9%9A%86%C2%B7%E9%A9%AC%E6%96%AF%E5%85%8B">中文</a></li>
+
+        </ul>
+    </section>
+    <article>
+        <h1>Elon Musk</h1>
+        <hr>
+        <p>From Wikipedia, the free encyclopedia</p>
+        <p> For the book, see <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk:_Tesla,_SpaceX,_and_the_Quest_for_a_Fantastic_Future">Elon
+                Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</a> </p>
+        <p>
+            Elon Reeve Musk <a href="https://en.wikipedia.org/wiki/Fellow_of_the_Royal_Society"> FRS</a> (/ˈiːlɒn/; born
+            June 28, 1971) is a technology <a href="https://en.wikipedia.org/wiki/Entrepreneur">entrepreneur</a>, <a
+                href="https://en.wikipedia.org/wiki/Investor">investor</a>, <a
+                href="https://en.wikipedia.org/wiki/Engineer"> engineer</a>, and <a
+                href="https://en.wikipedia.org/wiki/Rapper"> rapper</a>.<a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-12"><sup>[12]</sup></a><a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-13"><sup>[13]</sup></a><a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-14"> <sup>[14]</sup></a><a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-15"> <sup>[15]</sup></a> He holds <a
+                href="https://en.wikipedia.org/wiki/South_Africa">South African</a>, <a
+                href="https://en.wikipedia.org/wiki/Canada"> Canadian</a> and
+            <a href="https://en.wikipedia.org/wiki/United_States"> U.S</a>. citizenship and is the founder, <a
+                href="https://en.wikipedia.org/wiki/Chief_executive_officer"> CEO</a>, and lead designer of
+            <a href="https://en.wikipedia.org/wiki/SpaceX
+                "> SpaceX</a>;<a href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-SpaceX-16">
+                <sup>[16]</sup></a>
+            co-founder, CEO, and product architect of <a href="
+            https://en.wikipedia.org/wiki/Tesla,_Inc."> Tesla, Inc.</a>;<a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-17"><sup>[17]</sup></a> co-founder and CEO of <a
+                href="https://en.wikipedia.org/wiki/Neuralink"> Neuralink</a>; founder of The
+            <a href="
+            https://en.wikipedia.org/wiki/The_Boring_Company"> Boring Company</a>;<a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-18"> [18]</a> co-founder and co-chairman of
+            <a href="
+        https://en.wikipedia.org/wiki/OpenAI"> OpenAI</a>;<a href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-19
+        ">[19]</a> and co-founder of <a href="https://en.wikipedia.org/wiki/PayPal
+        ">PayPal</a>. In December 2016, he
+            was ranked 21st on the <a href="https://en.wikipedia.org/wiki/Forbes
+        "> Forbes</a> list of <a href="https://en.wikipedia.org/wiki/Forbes_list_of_The_World%27s_Most_Powerful_People
+        ">The World's Most Powerful People</a>.<a href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-auto1-20
+        "> [20]</a> As of October 2018, he has a net
+            worth of $22.8 billion and is listed by Forbes as the <a href="https://en.wikipedia.org/wiki/The_World%27s_Billionaires
+        ">54th-richest person in the world</a>.<a href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-21
+        "> [21]</a>
+
+            Born and raised in <a href="https://en.wikipedia.org/wiki/Pretoria,_South_Africa
+        "> Pretoria, South Africa </a>, Musk moved to Canada when he was 17 to attend <a
+                href="https://en.wikipedia.org/wiki/Queen%27s_University"> Queen's University</a>.
+            He transferred to the <a href="https://en.wikipedia.org/wiki/University_of_Pennsylvania
+        "> University of Pennsylvania</a> two years later, where he received an economics degree from
+            the <a href="https://en.wikipedia.org/wiki/Wharton_School_of_the_University_of_Pennsylvania
+        "> Wharton School</a> and a degree in physics from the <a href="https://en.wikipedia.org/wiki/University_of_Pennsylvania_School_of_Arts_and_Sciences
+        "> College of Arts and Sciences</a>. He began a Ph.D. in
+            applied physics and material sciences at <a href="https://en.wikipedia.org/wiki/Stanford_University
+        "> Stanford University</a> in 1995 but dropped out after two days to
+            pursue an entrepreneurial career. He subsequently co-founded <a href="https://en.wikipedia.org/wiki/Zip2
+        ">Zip2</a>, a web software company, which was
+            acquired by <a href="https://en.wikipedia.org/wiki/Compaq
+        "> Compaq</a> for $340 million in 1999. Musk then founded <a href="https://en.wikipedia.org/wiki/X.com
+        "> X.com</a>, an online bank. It merged with
+            <a href="https://en.wikipedia.org/wiki/Confinity
+        "> Confinity</a> in 2000 and later that year became PayPal, which was bought by <a
+                href="https://en.wikipedia.org/wiki/EBay"> eBay</a> for $1.5 billion in October.
+        </p>
+        <aside align="center">
+            <h3>Elon musk</h3>
+            <h4><a href="https://en.wikipedia.org/wiki/Fellow_of_the_Royal_Society">FRS</a></h4>
+            <img src="Elon_Musk_Royal_Society.jpg"
+                alt="Musk at the Royal socitey administration day in London, July 2018">
+            <p>Musk at The <a href="https://en.wikipedia.org/wiki/Royal_Society"> Royal Society</a> admissions day in
+                London, July 2018</p>
+            <table>
+                <td><strong>Born</strong></td>
+                <td align="right">Elon Reeve Musk
+                    June 28, 1971 (age 47)<a href="https://en.wikipedia.org/wiki/Pretoria">Pretoria</a>,<a
+                        href="https://en.wikipedia.org/wiki/Transvaal_(province)">Transvaal</a> , South Africa</td>
+            </table>
+            <table>
+                <td><strong>Residence</strong></td>
+                <td><a href="https://en.wikipedia.org/wiki/Bel_Air,_Los_Angeles">Bel Air , Los Angeles</a>,<a
+                        href="https://en.wikipedia.org/wiki/California">California</a>, United States <a
+                        href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-forbesbuyshome.com-1"><sup>[1]</sup></a><a
+                        href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-bloombergbuyshome-2"><sup>[2]</sup></a>
+                </td>
+            </table>
+            <table>
+                <td><strong>citizenship</strong></td>
+                <td>South Africa (1971–present)
+                    Canada (1989–present)
+                    United States (2002–present)</td>
+            </table>
+            <table>
+                <td><strong>Alma mater</strong></td>
+                <td><a href="https://en.wikipedia.org/wiki/Queen%27s_University">Queen's University</a><a
+                        href="https://en.wikipedia.org/wiki/University_of_Pennsylvania">
+                        University of Pennsylvanla</a><a
+                        href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-3"><sup>[3]</sup></a><a
+                        href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-4"><sup>[4]</sup></a></td>
+            </table>
+            <table>
+                <td><strong>Occupation</strong></td>
+                <td>Entrepreneur, Investor, Engineer</td>
+            </table>
+            <table>
+                <td><strong>years active</strong></td>
+                <td>1995-present</td>
+            </table>
+            <table>
+                <td><strong>Net worth</strong></td>
+                <td><a href="https://en.wikipedia.org/wiki/United_States_dollar">US$</a>21.4 billion (March 2019)</td>
+            </table>
+            <table>
+                <td><strong>Title</strong></td>
+                <td>
+                    Founder, CEO, Lead Designer of <a href="https://en.wikipedia.org/wiki/SpaceX">SpaceX</a>
+                    CEO, Product Architect of <a href="https://en.wikipedia.org/wiki/Tesla,_Inc.">Tesla, Inc.</a>
+                    Co-founder, CEO of <a href="https://en.wikipedia.org/wiki/Neuralink">Neuralink</a>
+                    Founder of The <a href="https://en.wikipedia.org/wiki/The_Boring_Company">Boring Company</a>
+                    Co-founder of <a href="https://en.wikipedia.org/wiki/Zip2">Zip2</a>
+                    Founder of <a href="https://en.wikipedia.org/wiki/X.com">X.com</a> (later became <a
+                        href="https://en.wikipedia.org/wiki/PayPal">PayPal</a> )
+                    Co-founder of <a href="https://en.wikipedia.org/wiki/OpenAI">OpenAI</a>
+                    Chairman of <a href="https://en.wikipedia.org/wiki/SolarCity">SolarCity</a> </td>
+            </table>
+            <table>
+                <td><strong>Political Party</strong></td>
+                <td><a href="https://en.wikipedia.org/wiki/Independent_voter">Indepedndent</a><a
+                        href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-6"><sup>[6]</sup></a></td>
+            </table>
+            <table>
+                <td><strong>Spouse(s)</strong></td>
+                <td><a href="https://en.wikipedia.org/wiki/Justine_Musk">Justine Wilson</a>(m, 2000; div 2008)
+                    <a href="https://en.wikipedia.org/wiki/Talulah_Riley">Talulah Riley</a>
+                    (m. 2010; div. 2012)
+                    (m. 2013; div. 2016) <a
+                        href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-7"><sup>[7]</sup></a>
+                </td>
+            </table>
+            <table>
+                <td><strong>Partner(s)</strong></td>
+                <td>
+                    <a href="https://en.wikipedia.org/wiki/Amber_Heard">Amber Heard</a> (2016–2018) <a
+                        href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-8"><sup>[8]</sup></a>
+                    <a href="https://en.wikipedia.org/wiki/Grimes_(musician)">Grimes</a> (2018–present) <a
+                        href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-9"><sup>[9]</sup></a><a
+                        href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-10"><sup>[10]</sup></a><a
+                        href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-11"><sup>[11]</supa>
+                </td>
+            </table>></ <table>
+            <td><strong>Awards</strong></td>
+            <td><a href="https://en.wikipedia.org/wiki/Fellow_of_the_Royal_Society">Fellow of the Royal Society</a>
+            </td>
+            </table>
+            <h5>Signature</h5>
+            <img src="150px-Elon_Musk_Signature.svg.png"
+                alt="Elon Musk">
+        </aside>
+
+        <h5>Content</h5>
+        <ol id="std">
+            <li><a href="#earlyLIfe">Early Life</a></li>
+            <li><a href="#education">Education </a></li>
+            <li><a href="#career">Career</a>
+                <ol type="1" start="1">
+                    <li><a href="#zip2">Zip2</a></li>
+                    <li><a href="#x.com and paypal">X.com and PayPal</a></li>
+                    <li><a href="#spacex">SpaceX</a></li>
+                    <li><a href="#tesla">Tesla</a></li>
+                    <li><a href="#solarcity">SolarCity</a>
+                        <ol>
+                            <li><a href="#gigafactory">Gigafactory</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="#hyperloop">Hyperloop</a></li>
+                    <li><a href="#openai">OpenAI</a></li>
+                    <li><a href="#neuralink">Neuralink</a></li>
+                    <li><a href="#tbcompany">The The_Boring_Company</a></li>
+                    <li><a href="#pravduh.com">pravduh.com</a></li>
+                    <li><a href="#tlcRescue">Tham Luang cave rescue</a>
+                        <ol>
+                            <li><a href="#dv">Device viability</a></li>
+                            <li><a href="#mc&mb">Media coverage and Musk's </a></li>
+                        </ol>
+                    </li>
+                    <li><a href="#">behaviour</a></li>
+                    <li><a href="#teslaquila">Teslaquila</a></li>
+                    <li><a href="#music">Music</a></li>
+
+            </li>
+        </ol>
+
+        <li><a href="#views">Views</a></li>
+        <li><a href="#awards">Awards and recognition</a></li>
+        <li><a href="#mediacov">In popular media</a>
+            <ol>
+                <li><a href="#2010-2016">2010-2016</a></li>
+                <li><a href="#2017-">2017-Present</a></li>
+
+            </ol>
+        </li>
+        <li><a href="#further">Further reading</a></li>
+        <li><a href="#extlinks">External links</a></li>
+        </ol>
+        <h2 id="earlyLIfe">Early Life</h2>
+        <hr>
+        <p>
+            Musk was born on June 28, 1971, in <a href="https://en.wikipedia.org/wiki/Pretoria"> Pretoria</a>,
+            Transvaal, South Africa, <a href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-30"><sup>[30]</sup></a>
+            the son of <a href="https://en.wikipedia.org/wiki/Maye_Muskhttps://en.wikipedia.org/wiki/Maye_Musk"> Maye
+                Musk</a> (née
+            Haldeman), a model and dietitian from Regina, Saskatchewan, Canada,[31] and Errol Musk, a South African
+            electromechanical engineer, pilot, and sailor. He has a younger brother, Kimbal (born 1972), and a younger
+            sister, Tosca (born 1974). <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-35"><sup>[35]</sup></a> His maternal
+            grandfather, Dr. Joshua Haldeman, was an American-born
+            Canadian. <a href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-36"><sup>[36]</sup></a> <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-37"><sup>[37]</sup></a> His paternal grandmother
+            was British, and he also has Pennsylvania Dutch ancestry. <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-sjmn20140411-38"><sup>[38]</sup></a> <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-39"><sup>[39]</sup></a>
+            After his parents divorced in 1980, Musk lived mostly with his father in the suburbs of Pretoria,[38] which
+            Musk chose two years after his parents split up, but now Musk says it was a mistake.As an adult, Musk
+            has severed relations with his father, whom he has referred to as "a terrible human being". <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-rollingstone20171115-40"><sup>[40]</sup></a> He
+            has a
+            half-sister <a href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-41"><sup>[41]</sup></a> and a
+            half-brother. <a href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-42"><sup>[42]</sup></a>
+
+            During his childhood, Musk was an avid reader. At the age of 10, he developed an interest in computing
+            with the Commodore VIC-20. He taught himself computer programming at the age of 10, and by the age of 12
+            sold the code of a BASIC-based video game he created called Blastar, to a magazine called PC and Office
+            Technology, for approximately $500. A web version of the game is available online. His
+            childhood reading included Isaac Asimov's Foundation series, from which he drew the lesson that "you should
+            try to take the set of actions that are likely to prolong civilization, minimize the probability of a dark
+            age and reduce the length of a dark age if there is one."
+
+            Musk was severely bullied throughout his childhood and was once hospitalized when a group of boys threw
+            him down a flight of stairs and then smashed his head into the pavement until he lost consciousness. He
+            later revealed that he had to get a nose job, to repair the damage.
+
+            Musk attended Waterkloof House Preparatory School and Bryanston High School before graduating from
+            Pretoria Boys High School. Although Musk's father insisted that Elon go to college in Pretoria, Musk became
+            determined to move to the United States. As he states, "I remember thinking and seeing that America is where
+            great things are possible, more than any other country in the world." Knowing it would be easy to get to
+            the United States from Canada, he moved to Canada against his father's wishes in June 1989, just before his
+            18th birthday,after obtaining a Canadian passport through his Canadian-born mother.
+        </p>
+        <h2 id="education">Education</h2>
+        <hr>
+        <p>
+            At the age of 17, in 1989, Elon Musk moved to Canada to attend Queen's University, avoiding mandatory
+            service in the South African military. He left in 1992 to study business and physics at the University of
+            Pennsylvania, and graduated with an undergraduate degree in economics and stayed for a second bachelor's
+            degree in physics.
+
+            After leaving Penn, Elon Musk headed to Stanford University in California to pursue a PhD in energy physics.
+            However, his move coincided with the Internet boom, and he dropped out of Stanford after just two days to
+            become a part of it, launching his first company, Zip2 Corporation.
+        </p>
+        <h2 id="career">Career</h2>
+        <hr>
+        <h3 id="zip2">Zip2</h3>
+        <p> Main article: Zip2</p>
+        <p>
+            In 1995, Musk and his brother, Kimbal, started Zip2, a web software company, with money raised from a small
+            group of angel investors. The company developed and marketed an Internet city guide for the newspaper
+            publishing industry. Musk obtained contracts with The New York Times and the Chicago Tribune and
+            persuaded the board of directors to abandon plans for a merger with CitySearch. While at Zip2, Musk
+            wanted to become CEO; however, none of the board members would allow it. Compaq acquired <a href=""></a>
+            Zip2 for US$307
+            million in cash:109 and US$34 million in stock options[citation needed] in February 1999. Musk
+            received US$22 million for his 7 percent share from the sale.:109
+
+        </p>
+        <h3 id="x.com and paypal">X.com and PayPal</h3>
+        <pre>   Main articles: <a href="https://en.wikipedia.org/wiki/PayPal">PayPal</a> and <a href="https://en.wikipedia.org/wiki/X.com">X.com</a> </pre>
+        <p>In March 1999, Musk co-founded <a href="https://en.wikipedia.org/wiki/X.com">X.com</a> , an online financial
+            services and <a href="https://en.wikipedia.org/wiki/E-mail">e-mail</a> payment company, with US$10
+            million from the sale of Zip2. <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-:2-50"><sup>[50]</sup></a> <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-Friedman-54"><sup>[54]</sup></a> <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-Startup_Playbook-56"><sup>[56]</sup></a> One
+            year later, the company merged with <a href="https://en.wikipedia.org/wiki/Confinity"> Confinity</a>, <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-paypalwars-55"><sup>[55]</sup></a> <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-58"><sup>[58]</sup></a> which
+            had a money-transfer service called <a href="https://en.wikipedia.org/wiki/PayPal#History"> PayPal</a> . The
+            merged company focused on the PayPal service and was renamed
+            PayPal in 2001. PayPal's early growth was driven mainly by a <a
+                href="https://en.wikipedia.org/wiki/Viral_marketing"> viral marketing</a> campaign where new customers
+            were recruited when they received money through the service. <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-59"><sup>[59]</sup></a> Musk was ousted in
+            October 2000 from his
+            role as CEO (although he remained on the board) due to disagreements with other company leadership, notably
+            over his desire to move PayPal's <a href="https://en.wikipedia.org/wiki/Unix"> Unix</a>-based infrastructure
+            to <a href="https://en.wikipedia.org/wiki/Microsoft_Windows"> Microsoft Windows</a>. <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-60"><sup>[60]</sup></a> In October 2002, PayPal
+            was acquired by <a href="https://en.wikipedia.org/wiki/EBay"> eBay</a> for US$1.5 billion in stock, of which
+            Musk received US$165 million. <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-61"><sup>[61]</sup></a> Before its
+            sale, Musk, who was the company's largest <a href="https://en.wikipedia.org/wiki/Shareholder">
+                shareholder</a>, owned 11.7% of PayPal's shares. <a
+                href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-62"><sup>[62]</sup></a></p>
+        <p>In July 2017, Musk purchased the domain x.com from PayPal for an undisclosed amount, stating that it has
+            sentimental value to him. <a href="https://en.wikipedia.org/wiki/Elon_Musk#cite_note-63"><sup></sup>[63]</a>
+        </p>
+        <h3 id="spacex">SpaceX</h3>
+        <pre>   Main article: <a href="https://en.wikipedia.org/wiki/SpaceX">SpaceX</a></pre> in 2001, Musk
+        <p>In 2001, Musk conceptualized <a href="/wiki/Mars_Oasis" class="mw-redirect" title="Mars Oasis">Mars
+                Oasis</a>, a project to land a miniature experimental <a href="/wiki/Greenhouse"
+                title="Greenhouse">greenhouse</a> on Mars, containing food crops growing on Martian <a
+                href="/wiki/Regolith" title="Regolith">regolith</a>, in an attempt to regain <a
+                href="/wiki/Public_interest" title="Public interest">public interest</a> in space exploration.<sup
+                id="cite_ref-64" class="reference"><a href="#cite_note-64">[64]</a></sup><sup
+                id="cite_ref-spectrum_65-0" class="reference"><a href="#cite_note-spectrum-65">[65]</a></sup> In October
+            2001, Musk travelled to <a href="/wiki/Moscow" title="Moscow">Moscow</a> with Jim Cantrell (an aerospace
+            supplies fixer), and <a href="/wiki/Adeo_Ressi" title="Adeo Ressi">Adeo Ressi</a> (his best friend from
+            college), to buy refurbished <a href="/wiki/Dnepr_(rocket)" title="Dnepr (rocket)">Dnepr</a> <a
+                href="/wiki/Intercontinental_ballistic_missile"
+                title="Intercontinental ballistic missile">Intercontinental ballistic missiles</a> (ICBMs) that could
+            send the envisioned payloads into space. The group met with companies such as <a href="/wiki/NPO_Lavochkin"
+                class="mw-redirect" title="NPO Lavochkin">NPO Lavochkin</a> and <a href="/wiki/Kosmotras"
+                class="mw-redirect" title="Kosmotras">Kosmotras</a>; however, according to Cantrell, Musk was seen as a
+            novice and was consequently spat on by one of the Russian chief designers,<sup id="cite_ref-:0_66-0"
+                class="reference"><a href="#cite_note-:0-66">[66]</a></sup> and the group returned to the United States
+            empty-handed. In February 2002, the group returned to Russia to look for three ICBMs, bringing along Mike
+            Griffin. Griffin had worked for the CIA's venture capital arm, <a href="/wiki/In-Q-Tel"
+                title="In-Q-Tel">In-Q-Tel</a>, as well as NASA's <a href="/wiki/Jet_Propulsion_Laboratory"
+                title="Jet Propulsion Laboratory">Jet Propulsion Laboratory</a>, and was just leaving <a
+                href="/wiki/Orbital_Sciences" class="mw-redirect" title="Orbital Sciences">Orbital Sciences</a>, a maker
+            of satellites and spacecraft. The group met again with Kosmotras, and were offered one rocket for <span
+                style="white-space: nowrap">US$8&nbsp;million</span>; however, this was seen by Musk as too expensive;
+            Musk consequently stormed out of the meeting. On the flight back from Moscow, Musk realized that he could
+            start a company that could build the affordable rockets he needed.<sup id="cite_ref-:0_66-1"
+                class="reference"><a href="#cite_note-:0-66">[66]</a></sup> According to early Tesla and SpaceX investor
+            <a href="/wiki/Steve_Jurvetson" title="Steve Jurvetson">Steve Jurvetson</a>,<sup id="cite_ref-67"
+                class="reference"><a href="#cite_note-67">[67]</a></sup> Musk calculated that the <a
+                href="/wiki/Raw_materials" class="mw-redirect" title="Raw materials">raw materials</a> for building a
+            rocket actually were only 3 percent of the sales price of a rocket at the time. It was concluded that
+            theoretically, by applying <a href="/wiki/Vertical_integration" title="Vertical integration">vertical
+                integration</a> and the modular approach from software engineering, SpaceX could cut launch price by a
+            factor of ten and still enjoy a 70-percent <a href="/wiki/Gross_margin" title="Gross margin">gross
+                margin</a>.<sup id="cite_ref-68" class="reference"><a href="#cite_note-68">[68]</a></sup> Ultimately,
+            Musk ended up founding SpaceX with the long-term goal of creating a true spacefaring civilization.<sup
+                id="cite_ref-69" class="reference"><a href="#cite_note-69">[69]</a></sup>
+        </p>
+
+        <p><img src="Elon_Musk_gives_tour_for_President_Barack_Obama.jpg"
+                class="as">
+
+            With US$100<span class="nowrap"></span>&nbsp;</span>million</span> of his early
+            fortune,<sup id="cite_ref-70" class="reference"><a href="#cite_note-70">[70]</a></sup> Musk founded
+            Space
+            Exploration Technologies, or <a href="/wiki/SpaceX" title="SpaceX">SpaceX</a>, in May 2002.<sup
+                id="cite_ref-71" class="reference"><a href="#cite_note-71">[71]</a></sup> Musk is <a
+                href="/wiki/Chief_executive_officer" title="Chief executive officer">chief executive officer</a>
+            (CEO)
+            and <a href="/wiki/Chief_technology_officer" title="Chief technology officer">chief technology
+                officer</a>
+            (CTO) of the <a href="/wiki/Hawthorne,_California" title="Hawthorne, California">Hawthorne,
+                California</a>-based company. SpaceX develops and manufactures space <a href="/wiki/Launch_vehicle"
+                title="Launch vehicle">launch vehicles</a> with a focus on advancing the state of rocket technology.
+            The
+            company's first two launch vehicles are the <a href="/wiki/Falcon_1" title="Falcon 1">Falcon 1</a> and
+            <a href="/wiki/Falcon_9" title="Falcon 9">Falcon 9</a> rockets (a nod to Star Wars' <i><a
+                    href="/wiki/Millennium_Falcon" title="Millennium Falcon">Millennium Falcon</a></i>), and its
+            first
+            spacecraft is the <a href="/wiki/SpaceX_Dragon" title="SpaceX Dragon">Dragon</a> (a nod to <i><a
+                    href="/wiki/Puff_the_Magic_Dragon_(film)" title="Puff the Magic Dragon (film)">Puff the Magic
+                    Dragon</a></i>).<sup id="cite_ref-72" class="reference"><a href="#cite_note-72">[72]</a></sup>
+            In
+            seven years, SpaceX designed the family of Falcon launch vehicles and the Dragon multipurpose
+            spacecraft. In
+            September 2008, SpaceX's Falcon 1 rocket became the first privately funded liquid-fueled vehicle to put
+            a
+            satellite into Earth orbit.<sup id="cite_ref-vance_43-5" class="reference"><a
+                    href="#cite_note-vance-43">[43]</a></sup> On May 25, 2012, the SpaceX Dragon vehicle berthed <a
+                href="/wiki/Dragon_C2%2B" title="Dragon C2+">with the ISS</a>, making history as the first
+            commercial
+            company to launch and <a href="/wiki/Berthing_(spacecraft)" class="mw-redirect"
+                title="Berthing (spacecraft)">berth</a> a vehicle to the <a href="/wiki/International_Space_Station"
+                title="International Space Station">International Space Station</a>.<sup id="cite_ref-73"
+                class="reference"><a href="#cite_note-73">[73]</a></sup>
+        </p>
+        <p>In 2006, SpaceX was awarded a contract from NASA to continue the development and test of the SpaceX Falcon 9
+            <a href="#">launch vehicle</a> and <a href="#">Dragon spacecraft</a> in order to transport cargo to the
+            International Space Station, followed by a US$1.6 billion NASA <a href="#">Commercial Resupply Services</a>
+            program contract
+            on
+            December 23, 2008, for 12 flights of its Falcon 9 rocket and Dragon spacecraft to the Space Station,
+            replacing the US Space Shuttle after it retired in 2011. Astronaut transport to the ISS is currently
+            handled solely by the Soyuz, but SpaceX is one of two companies awarded a contract by NASA as part of the
+            Commercial Crew Development program, which is intended to develop a US astronaut transport capability by
+            2018.
+        </p>
+        <p> <img src="spacex.jpg"
+                alt="NASA Administrator Charles Bolden congratulates Musk in front of the Dragon capsule in 2012"
+                class="ab">
+
+            Musk believed that the key to making space travel affordable is to make rockets reusable, Though most
+            experts in the space industry did not believe that reusable rockets were possible or feasible.[76] On
+            December 22, 2015, SpaceX successfully landed the first stage of its Falcon rocket back at the launch pad.
+            This was the first time in history such a feat had been achieved by an orbital rocket and is a significant
+            step towards rocket reusability lowering the costs of access to space.[77] This first stage recovery was
+            replicated several times in 2016 by landing on an autonomous spaceport drone ship, an ocean-based recovery
+            platform,[78] and by the end of 2017, SpaceX had landed and recovered the first stage on 16 missions in a
+            row where a landing and recovery were attempted, including all 14 attempts in 2017. 20 out of 42 first stage
+            Falcon 9 boosters have been recovered overall since the Falcon 9 maiden flight in 2010. In the most
+            recent full year—2017—SpaceX launched 18 successful Falcon 9 flights, more than doubling their highest
+            previous year of 8.
+        </p>
+        <p>
+            On February 6, 2018, SpaceX successfully launched the Falcon Heavy, the fourth-highest capacity rocket ever
+            built (after Saturn V, Energia and N1) and the most powerful rocket in operation as of 2018. The inaugural
+            mission carried a Tesla Roadster belonging to Musk as a dummy payload.
+        </p>
+        SpaceX is both the largest private producer of rocket engines in the world and holder of the record for the
+        highest thrust-to-weight ratio for a rocket engine (the Merlin 1D). SpaceX has produced more than
+        100 operational Merlin 1D engines. Each Merlin 1D engine can vertically lift the weight of 40 average family
+        cars. In combination, the 9 Merlin engines in the Falcon 9 first stage produce anywhere from 5.8 to 6.7 MN
+        (1.3 to 1.5 million pounds) of thrust, depending on altitude.
+        <p>
+            Musk was influenced by Isaac Asimov's Foundation series and views space exploration as an important step
+            in preserving and expanding the consciousness of human life. Musk said that multiplanetary life may
+            serve as a hedge against threats to the survival of the human species.
+        </p>
+        An asteroid or a super volcano could destroy us, and we face risks the dinosaurs never saw: an engineered
+        virus, inadvertent creation of a micro black hole, catastrophic global warming or some as-yet-unknown
+        technology could spell the end of us. Humankind evolved over millions of years, but in the last sixty years
+        atomic weaponry created the potential to extinguish ourselves. Sooner or later, we must expand life beyond
+        this green and blue ball—or go extinct.
+        <p>
+            Musk's goal is to reduce the cost of human spaceflight by a factor of 10. In a 2011 interview, he said
+            he hopes to send humans to Mars' surface within 10–20 years. In Ashlee Vance's biography, Musk stated
+            that he wants to establish a Mars colony by 2040, with a population of 80,000. Musk stated that, since
+            Mars' atmosphere lacks oxygen, all transportation would have to be electric (electric cars, electric trains,
+            Hyperloop, electric aircraft).Musk stated in June 2016 that the first unmanned flight of the larger
+            Mars Colonial Transporter (MCT) spacecraft is aimed for departure to the red planet in 2022, to be followed
+            by the first manned MCT Mars flight departing in 2024. In September 2016, Musk revealed details of his
+            architecture to explore and colonize Mars. By 2016, Musk's private trust holds 54% of SpaceX stock,
+            equivalent to 78% of voting shares.
+        </p>
+        <p>
+            In late 2017, SpaceX unveiled the design for its next-generation launch vehicle and spacecraft
+            system—BFR—that would support all SpaceX launch service provider capabilities with a single set of very
+            large vehicles: Earth-orbit, Lunar-orbit, interplanetary missions, and even intercontinental passenger
+            transport on Earth, and totally replace the Falcon 9, Falcon Heavy and Dragon vehicles in the 2020s. The BFR
+            will have a 9-meter (30 ft) core diameter. Significant development on the vehicles began in 2017, while the
+            new rocket engine development began in 2012.</p>
+        <h3 id="tesla">Tesla</h3>
+        <pre>   Main article: <a href="#">TEsla,inc.</a></pre>
+        <p>Tesla, Inc. (originally Tesla Motors) was incorporated in July 2003 by Martin Eberhard and Marc Tarpenning,
+            who financed the company until the Series A round of funding.[95]
+
+            Both men played active roles in the company's early development prior to Elon Musk's involvement.[96] Musk
+            led the Series A round of investment in February 2004, joining Tesla's board of directors as its
+            chairman.[97] Musk took an active role within the company and oversaw Roadster product design at a detailed
+            level, but was not deeply involved in day-to-day business operations.[98]
+
+            Following the financial crisis in 2008 and after a series of escalating conflicts in 2007, Eberhard was
+            ousted from the firm.[76][99] Musk assumed leadership of the company as CEO and product architect, positions
+            he still holds today. Tesla Motors first built an electric sports car, the Tesla Roadster in 2008, with
+            sales of about 2,500 vehicles to 31 countries. Tesla began delivery of its four-door Model S sedan on June
+            22, 2012. It unveiled its third product, the Model X, aimed at the SUV/minivan market, on February 9, 2012;
+            however, the Model X launch was delayed until September 2015.[100][101][102] In addition to its own cars,
+            Tesla sells electric powertrain systems to Daimler for the Smart EV, Mercedes B-Class Electric Drive and
+            Mercedes A Class, and to Toyota for the RAV4 EV. Musk was able to bring in both companies as long-term
+            investors in Tesla.[103]
+
+        </p>
+
+        <img src="FANUC_Robot_Assembly_Demo.jpg"
+            alt="TEsla Factory">
+        <img src="tesla-Can_I_sit_on_the_car_.jpg"
+            alt="TEsla Model S (2011)">
+        <img src="white-Elon_Musk,_Tesla_Factory,_Fremont_(CA,_USA)_(8765031426).jpg"
+            alt="TEsla model S (2010)">
+
+        <h3 id="solarcity">Solar City</h3>
+        <p>Musk provided the initial concept and financial capital for SolarCity, which was then co-founded in 2006 by
+            his
+            cousins Lyndon and Peter Rive.[128][129] By 2013, SolarCity was the second largest provider of solar power
+            systems in the United States.[130] SolarCity was acquired by Tesla, Inc. in 2016 and is currently a wholly
+            owned
+            subsidiary of Tesla.[131][132][133]
+
+            The underlying motivation for funding both SolarCity and Tesla was to help combat global warming.[134] In
+            2012,
+            Musk announced that SolarCity and Tesla are collaborating to use electric vehicle batteries to smooth the
+            impact
+            of rooftop solar on the power grid, with the program going live in 2013.[135]
+
+        </p>
+        <h4 id="gigafactory">Gigafactory</h4>
+        <p>On June 17, 2014, Musk committed to building a SolarCity advanced production facility in Buffalo, New York,
+            that
+            would triple the size of the largest solar plant in the United States. Musk stated the plant will be "one of
+            the
+            single largest solar panel production plants in the world," and it will be followed by one or more even
+            bigger
+            facilities in subsequent years.[136] The Tesla Gigafactory 2 is a photovoltaic (PV) cell factory, leased by
+            Tesla subsidiary SolarCity in Buffalo, New York. Construction on the factory started in 2014 and was
+            completed
+            in 2017.[137]
+
+        </p>
+        <h3 id="hyperloop">Hyperloop</h3>
+        <p>On August 12, 2013, Musk unveiled a concept for a high-speed transportation system incorporating
+            reduced-pressure
+            tubes in which pressurized capsules ride on an air cushion driven by linear induction motors and air
+            compressors.[138] The mechanism for releasing the concept was an alpha-design document that, in addition to
+            scoping out the technology, outlined a notional route where such a transport system might be built: between
+            the
+            Greater Los Angeles Area and the San Francisco Bay Area.[139]
+
+            After earlier envisioning Hyperloop, Musk assigned a dozen engineers from Tesla and SpaceX who worked for
+            nine
+            months, establishing the conceptual foundations and creating the designs for the transportation
+            system.[140][141] An early design for the system was then published in a whitepaper posted to the Tesla and
+            SpaceX blogs.[142][143][144] Musk's proposal, if technologically feasible at the costs he has cited, would
+            make
+            Hyperloop travel cheaper than any other mode of transport for such long distances. The alpha design was
+            proposed
+            to use a partial vacuum to reduce aerodynamic drag, which it is theorized would allow for high-speed travel
+            with
+            relatively low power, with certain other features like air-bearing skis and an inlet compressor to reduce
+            freestream flow. The document of alpha design estimated the total cost of an LA-to-SF Hyperloop system at
+            US$6
+            billion, but this amount is speculative.[145]
+
+            In June 2015, Musk announced a design competition for students and others to build Hyperloop pods to operate
+            on
+            a SpaceX-sponsored mile-long track in a 2015–2017 Hyperloop pod competition. The track was used in January
+            2017,
+            and Musk also started building a tunnel.[146]
+
+            Hyperloop One, a company unaffiliated with Musk, had announced that it had done its first successful test
+            run on
+            its DevLoop track in Nevada on July 13, 2017. It was on May 12, 2017, at 12:02 a.m. and had lasted 5.3
+            seconds,
+            reaching a top speed of 70 mph.[147]
+
+            On July 20, 2017, Elon Musk announced that he had gotten verbal government approval to build a hyperloop
+            from
+            New York City to Washington, D.C., stopping in both Philadelphia and Baltimore.[148] However, the New York
+            City
+            Transit Authority, Southeastern Pennsylvania Transportation Authority, Washington Metropolitan Area Transit
+            Authority, Maryland Transit Administration, United States Department of Homeland Security, as well as the
+            mayors
+            of New York, Philadelphia, Baltimore, and Washington D.C. stated that they are unaware of any such
+            agreement.[149]</p>
+        <h3 id="openai">OpenAI</h3>
+        <p>In December 2015, Musk announced the creation of OpenAI, a not-for-profit artificial intelligence (AI)
+            research
+            company. OpenAI aims to develop artificial general intelligence in a way that is safe and beneficial to
+            humanity.[150]
+
+            By making AI available to everyone, OpenAI wants to "counteract large corporations who may gain too much
+            power
+            by owning super-intelligence systems devoted to profits, as well as governments which may use AI to gain
+            power
+            and even oppress their citizenry."[151] Musk has stated he wants to counteract the concentration of
+            power.[39]
+            In 2018 Musk left the OpenAI board to avoid possible future conflicts with his role as CEO of Tesla as Tesla
+            increasingly becomes involved in AI.[152]
+
+            However, in an interview with Joe Rogan in September 2018, Musk warned about the dangers of developing
+            artificial intelligence indiscriminately. In January 2019 Mark Harris of The Guardian noted that on 23
+            January
+            the Musk foundation "added a line to its website, stating its support for the “development of safe
+            artificial
+            intelligence to benefit humanity”".[153]</p>
+        <h3 id="neuralink">Neuralink</h3>
+        <p>In 2016, Musk co-founded Neuralink, a neurotechnology startup company to integrate the human brain with
+            artificial intelligence. The company is centered on creating devices that can be implanted in the human
+            brain, with the eventual purpose of helping human beings merge with software and keep pace with advancements
+            in artificial intelligence. These enhancements could improve memory or allow more direct interfacing with
+            computing devices.[154] Musk sees Neuralink and OpenAI as related: "OpenAI is a nonprofit dedicated to
+            minimizing the dangers of artificial intelligence, while Neuralink is working on ways to implant technology
+            into our brains to create mind-computer interfaces."[39]</p>
+        <h3 id="tbcompany">The Boring Company</h3>
+        <p>On December 17, 2016, while stuck in traffic, Musk tweeted "Am going to build a tunnel boring machine and
+            just start digging ..." The company was named 'The Boring Company'.[155] On January 21, 2017, Musk tweeted
+            "Exciting progress on the tunnel front. Plan to start digging in a month or so."[156] The first tunnel will
+            start on the SpaceX campus,[157] The Boring Test Tunnel runs underneath West 120th Street. As of January 26,
+            2017, discussions with regulatory bodies had begun.</p>
+
+        <p><img src="ted_show.jpeg"
+                alt="Elon Musk in Ted show" class="as">In February 2017, the company began digging a 30-foot-wide,
+            50-foot-long, and 15-foot-deep "test trench" on
+            the premises of Space X's offices in Los Angeles, since the construction requires no permits.[159][160] Musk
+            had said in early 2017 that a 10-fold decrease in tunnel boring cost per mile is necessary for economic
+            feasibility of the proposed tunnel network.[161] By late 2018, TBC had active construction, approved plans
+            in place, or an operational tunnel in several areas of the United States: Baltimore,[162] Chicago[163] and
+            Los Angeles. TBC provided an update on the state of their technology and product line when they opened to
+            the public their first mile-long test tunnel in Hawthorne, California, on 18 December 2018, stating that it
+            has been a proof-of-concept for the technology.[164][165] Design is complete for the third-generation Boring
+            TBM, Prufrock, slated to support a 15x improvement in tunneling speed over the existing state of the art,
+            and the machine will be assembled and begin engineering testing in 2019.[164]:15:18–15:45</p>
+
+        <br>
+        <h3 id="pravduh.com">pravduh.com</h3>
+        <p>After a string of negative press targeting Tesla caused Musk to become frustrated,[166] specifically articles
+            published by Reveal News criticizing Tesla for its factory safety procedures,[167] Musk announced on Twitter
+            that he is planning on creating a website where users could rate the truthfulness of specific articles in
+            addition to the credibility of journalists and publications.[168] He suggested calling it "Pravda" after a
+            Soviet Union-era Communist Party newspaper of the same name.
+
+            This caused backlash from many journalists, claiming that a platform where any user could freely vote on an
+            article's or a journalist's credibility could be prone to abuse.[169][170]
+
+            After realizing the site "pravda.com" is used by the Ukrainian Internet newspaper Ukrayinska Pravda, Musk
+            bought the site pravduh.com on May 25, 2018.[171]
+
+        </p>
+        <h3 id="tlcRescue">Tham Luang cave rescue</h3>
+        <p>In July 2018, Musk attempted to provide assistance to rescuers during the Tham Luang cave rescue by ordering
+            his employees to build a small rescue pod.
+
+            Musk, responding to requests for help from Twitter users,[172] contacted James Yenbamroong, CEO of
+            Thailand-based satellite company Mu Space, to get him connected with the Thai government.[173] He then
+            ordered engineers from two of his companies to design a child-sized submarine to help the rescue effort and
+            publicised the process via Twitter.[174][175] Engineers at Musk's companies SpaceX and The Boring Company
+            built the mini-submarine out of a Falcon 9 liquid oxygen transfer tube[176] and personally delivered it to
+            Thailand.
+
+            Named "Wild Boar" after the children's soccer team,[177] its design, a five-foot (1.5 m)-long, twelve-inch
+            (300 mm)-inch wide sealed tube weighing about 90 pounds (41 kg) propelled manually by divers in the front
+            and back,[178] was intended to solve the problem of safely transporting the children, who might have had
+            difficulty learning the scuba skills required to exit the cave on their own without panicking.[179] In case
+            the mini-submarine could not fit through the cave system, Elon Musk also requested Wing Inflatables, a
+            California-based inflatable boat manufacturer, to build inflatable escape pods. The pods were designed,
+            fabricated, and tested in one day before being flown to Thailand.[180][181]
+
+            By this time, eight of the twelve children had already been rescued and Thai authorities decided not to use
+            the submarine, describing it as technologically impressive but impractical.</p>
+        <h3 id="dv">Device viability</h3>
+        <p>The supervisor of the rescue operation Narongsak Osatanakorn dismissed the submarine as impractical under the
+            current circumstances. A rescue caver who had been exploring the cave for the past six years and who had
+            originally located the trapped football team, said that Musk's idea "had absolutely no chance of working ...
+            the submarine, I believe, was about five foot six long, rigid, so it wouldn't have gone round corners or
+            round any obstacles. It wouldn't have made the first 50 metres into the cave from the dive start
+            point."[185][186] Musk tweeted that Richard Stanton, leader of the international diving team, had earlier
+            urged Musk to continue construction of the mini-submarine as a back-up, in case the flooding worsened.[187]
+
+            Although the device could safely hold an occupant, there were concerns that its rigid body was only slightly
+            smaller than the narrowest passages in the cave, making it risky to get it through the tighter turns.</p>
+        <h3 id="mc&mc">Media coverage and Musk's behavior</h3>
+        <p>As media coverage of the event grew, some were skeptical of Musk's intentions, claiming the submarine was
+            mainly built for publicity for Tesla and Musk, citing the apparent uselessness of the device.[188][189][190]
+
+            One of the divers said to have played a major role in the rescue criticized the submarine as amounting to
+            nothing more than a public relations effort with no chance of success, and that Musk "had no conception of
+            what the cave passage was like";[191] and said that Musk "can stick his submarine where it hurts". Musk
+            reasserted on Twitter that the device would have worked and referred to the diver as "pedo guy" without
+            offering any evidence to support the claim, causing backlash against Musk.[192][193] He subsequently deleted
+            the tweets, along with an earlier tweet in which he told another critic of the device "Stay tuned
+            jackass".[193] On 16 July, the diver stated that he was considering legal action in relation to Musk's
+            comments.[194][195]
+
+            After Musk's Tweets, Tesla shares fell 4% as some investors worried about his erratic behavior.[196] Tesla
+            investors subsequently demanded that Musk apologize.[197] Two days later, Musk issued an apology for his
+            remarks:[198][199] "The fault is mine and mine alone"[200] and "my words were spoken in anger".[201]
+
+            On August 28, 2018, in response to criticism from a writer on Twitter regarding how Musk had handled the
+            diver's criticism, Musk circled back to the pedophilia accusation tweeting "You don't think it's strange he
+            hasn't sued me? He was offered free legal services. ...".[202] The following day, a letter from L. Lin Wood,
+            the rescuer's attorney, dated August 6, emerged, showing that he had been making preparations for a libel
+            lawsuit.[203][204]
+
+            On 5 September 2018, a reporter from Buzzfeed News published an email written by Musk on August 30 marked
+            "off the record", saying "I suggest that you call people you know in Thailand, find out what's actually
+            going on and stop defending child rapists, you fucking asshole. As for this alleged threat of a lawsuit,
+            which magically appeared when I raised the issue ... I fucking hope he sues me." Musk confirmed that he had
+            sent the email.[205] The diver subsequently filed a defamation suit in Los Angeles federal court in
+            mid-September 2018, with plans to also file a similar case in the United Kingdom. The lawsuit contends that
+            "Musk embarked on a PR campaign to destroy [the diver]'s reputation by publishing false and heinous
+            accusations of criminality against him to the public", and seeks upwards of US$75,000 in damages.</p>
+        <h3 id="teslaquila">Teslaquila</h3>
+        <p>Musk first mentioned Teslaquila in an April Fools tweet in 2018.[208] The proposed Tesla-branded tequila
+            become closer to a reality in October 2018 as Tesla filed an 'intent to use' trademark application with the
+            U.S. Patent and Trademark Office.[209] The trademark is for distilled agave liquor. Musk reaffirmed his
+            intention to release the product with a tweet, featuring a mockup of the bottle, on October 12.[210]
+
+            Mexico's Tequila Regulatory Council (CRT) has publicly denounced the proposed product, arguing, "If it wants
+            to make Teslaquila viable as a tequila it would have to associate itself with an authorized tequila
+            producer, comply with certain standards and request authorization from Mexico's Industrial Property
+            Institute".</p>
+        <h3 id="music">Music</h3>
+        <p>On March 30, 2019, Musk released a rap single to SoundCloud under the username "Emo G Records".[212] Titled
+            "RIP Harambe", the track was performed by Yung Jake, written by Yung Jake and Caroline Polachek, and
+            produced by BloodPop.[213][214] Within ten days, the song had achieved more than 2,000,000 plays</p>
+        <section>
+            <h2 id="views">Views</h2>
+            <hr>
+            <h3 id="political">Politicatls</h3>
+            <p><img src="the_Summit_2013.jpg"
+                alt="Musk with Irish prime minister" class="as">
+ Politically, Musk has described himself as "half Democrat, half Republican" and "I'm somewhere in the
+                middle, socially liberal and fiscally conservative."[215] Prompted by the emergence of self-driving cars
+                and artificial intelligence, Musk has voiced support for a universal basic income;[216] he additionally
+                backs direct democracy.[217] He has described himself as a socialist, but "not the kind that shifts
+                resources from most productive to least productive, pretending to do good, while actually causing harm"
+                - arguing instead, "true socialism seeks greatest good for all."[218] He supports targeting an inclusive
+                tax rate of 40%, prefers consumption taxes to income taxes, and supports the estate tax, as the
+                "probability of progeny being equally excellent at capital allocation is not high."[219]
+
+                Musk has described the United States as "[inarguably] the greatest country that has ever existed on
+                Earth," describing it as "the greatest force for good of any country that's ever been." Musk believes
+                democracy would not exist any longer if not for the United States, saying that it prevented this
+                disappearance on three occasions through its participation in World War I, World War II and the Cold
+                War. Musk also stated that he thinks "it would be a mistake to say the United States is perfect, it
+                certainly is not. There have been many foolish things the United States has done and bad things the
+                United States has done."[220]</p>
+        </section>
+        <section>
+            <h3 id="awards">Awards</h3>
+            <ul id="dot">
+                <li>In 2006, Musk served as a member of the United States National Academy of Sciences Aeronautics and
+                    Space Engineering Board.[292]</li>
+                <li>Inc Magazine Entrepreneur of the Year award for 2007 for his work on Tesla and SpaceX.</li>
+                <li>2007 Index Design award for his design of the Tesla Roadster.[294] Global Green 2006 product design
+                    award for his design of the Tesla Roadster, presented by Mikhail Gorbachev.</li>
+                <li>American Institute of Aeronautics and Astronautics George Low award for the most outstanding
+                    contribution in the field of space transportation in 2007/2008. Musk was recognized for his design
+                    of the Falcon 1, the first privately developed liquid-fuel rocket to reach orbit.</li>
+                <li>National Wildlife Federation 2008 National Conservation Achievement award for Tesla and SolarCity.
+                    Other 2008 recipients include journalist Thomas Friedman, U.S. Senator Patrick Leahy (D-VT), and
+                    Florida Governor Charlie Crist.</li>
+                <li>National Space Society's Von Braun Trophy in 2008/2009, given for leadership of the most significant
+                    achievement in space. Prior recipients include Burt Rutan and Steve Squyres.</li>
+                <li>Listed as one of Time's 100 people who most affected the world in 2010.</li>
+                <li>The world governing body for aerospace records, Fédération Aéronautique Internationale, presented
+                    Musk in 2010 with the highest award in air and space, the FAI Gold Space Medal, for designing the
+                    first privately developed rocket to reach orbit. Prior recipients include Neil Armstrong, Burt Rutan
+                    of Scaled Composites and John Glenn.</li>
+                <li>Named as one of the 75 most influential people of the 21st century by Esquire magazine.</li>
+                <li>Recognized as a Living Legend of Aviation in 2010 by the Kitty Hawk Foundation for creating the
+                    successor to the Space Shuttle (Falcon 9 rocket and Dragon spacecraft). Other recipients include
+                    Buzz Aldrin and Richard Branson.</li>
+                <li>In February 2011, Forbes listed Musk as one of "America's 20 Most Powerful CEOs 40 And Under."</li>
+                <li>In June 2011, Musk was awarded the US$250,000 Heinlein Prize for Advances in Space
+                    Commercialization[</li>
+                <li>In 2012, Musk was awarded the Royal Aeronautical Society's highest award: a Gold Medal.[</li>
+                <li>In 2013, Musk was named the Fortune Businessperson of the year for SpaceX, SolarCity, and Tesla.
+                </li>
+                <li>Awarded the President's award for Exploration and Technology of the Explorers Club at the annual
+                    gala on the 16th of March 2014.</li>
+                <li>In 2015, he was awarded IEEE Honorary Membership.</li>
+                <li>In June 2016, Business Insider named Musk one of the "Top 10 Business Visionaries Creating Value for
+                    the World" along with Mark Zuckerberg and Sal Khan</li>
+                <li>In December 2016, Musk was ranked 21st on Forbes list of The World's Most Powerful People</li>
+                <li>In May 2017, Musk was awarded the Oslo Business for Peace Award.</li>
+                <li>Musk was elected a Fellow of the Royal Society (FRS) in 2018.</li>
+                <li>Musk was awarded as member (fifth class) of the Most Admirable Order of the Direkgunabhorn in 4
+                    March 2019 for involving in the rescue at Tham Luang cave, Chiang Rai Province, Thailand</li>
+
+            </ul>
+            <h3 id="mediacov">In Popular Media</h3>
+            <hr>
+            <h4 id="2010-2016">2010-2016</h4>
+            <p>In Iron Man 2 (2010), Musk met Tony Stark (Robert Downey Jr.) in a restaurant, and had some brief lines
+                regarding an "idea for an electric jet."[318] In January 2015, Musk made a guest appearance playing
+                himself on The Simpsons in an episode titled "The Musk Who Fell to Earth"; the episode poked fun at many
+                of Musk's ideas.[319] In November 2015, Musk appeared in an episode of The Big Bang Theory, playing
+                himself, volunteering at a soup kitchen with Wolowitz.[320] Musk was featured in the 2015 environmental
+                documentary Racing Extinction, in which a custom Tesla Model S was designed to help project images of
+                critically endangered species onto public buildings, including the Empire State Building and the
+                Vatican.[321] In 2016, Musk appeared as himself in the romantic comedy film Why Him? where he was
+                briefly met by one of the main characters, Ned Flemming played by Bryan Cranston, in a bar at a
+                party.[322] Also in 2016, Musk was referenced by Dr. Martin Stein on The CW time-travel TV show DC's
+                Legends of Tomorrow. During time travel to the past, Stein meets his younger self and introduced himself
+                as Elon Musk, to disguise his own identity.</p>
+            <h4 id="2017-">2017-Present</h4>
+            <p>In October 2017, Musk was prematurely immortalized as a historic pioneer on the CBS All Access series
+                Star Trek: Discovery. Set in the year 2256, Captain Gabriel Lorca attempts to motivate a scientist on
+                his ship by asking him "How do you want to be remembered in history? Alongside the Wright Brothers, Elon
+                Musk, Zefram Cochrane? Or as a failed fungus expert. A selfish little man who put the survival of his
+                own ego before the lives of others?"[324][325] According to a TechCrunch article published the day after
+                the episode aired, this mention is "also interesting because of its notable omission of Amazon and Blue
+                Origin founder Jeff Bezos: This other space entrepreneur is such a big fan of Star Trek that he pitched
+                and succeeded in landing a cameo in Star Trek Beyond as an alien being, but he doesn't rate a mention
+                from Lorca among the spaceflight pantheon."[326] Musk is significantly referenced numerous times in Hat
+                Films' 2017 album, Neon Musk.[327] In November 2017, Musk appeared as himself in season 1, episode 6 of
+                The Big Bang Theory spin-off prequel series Young Sheldon. The successful first landing of a SpaceX
+                Falcon 9 first stage on a drone ship on April 8, 2016, is shown being covered by CNN. This is followed
+                by a scene where Musk is shown alone in his office reading the notebook that young Sheldon mailed NASA
+                in 1989 (a scene shown earlier in the episode) containing calculations detailing how this feat could be
+                accomplished.[328] In February 2019, Musk co-hosted YouTuber PewDiePie's show "Meme Review" with Justin
+                Roiland under the request of PewDiePie's fans.</p>
+
+        </section>
+        <section>
+            <h2 id="further">Further Reading</h2>
+            <hr>
+            <ul type="none">
+                <li>Davenport, Christian. The Space Barons; Elon Musk. Jeff Bezos, and the Quest to Colonize the Cosmos.
+                    PublicAffairs (2018). <a href="https://en.wikipedia.org/wiki/International_Standard_Book_Number">
+                        ISBN</a><a
+                        href="https://en.wikipedia.org/wiki/Special:BookSources/978-1610398299">978-1610398299</a> </li>
+                <li>Fernholz, Tim. Rocket Billionaires: Elon Musk, Jeff Bezos, and the New Space Race. Houghton Mifflin
+                    Harcourt (2018). <a href="https://en.wikipedia.org/wiki/International_Standard_Book_Number">
+                        ISBN</a><a
+                        href="https://en.wikipedia.org/wiki/Special:BookSources/978-1-328-66223-1">978-1-328-66223-1</a>
+                </li>
+                <li><a href="https://en.wikipedia.org/wiki/Ashlee_Vance"> Vance, Ashlee</a>. <a
+                        href="https://en.wikipedia.org/wiki/Elon_Musk:_Tesla,_SpaceX,_and_the_Quest_for_a_Fantastic_Future">
+                        Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future</a>. Virgin Books
+                    (2015). <a href="https://en.wikipedia.org/wiki/International_Standard_Book_Number">ISBN</a> <a
+                        href="https://en.wikipedia.org/wiki/Special:BookSources/9780753555620"> 9780753555620</a>.
+                    Afterthoughts by Ashlee Vance</li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="extlink">External Link</h2>
+            <hr>
+            <ul>
+                <li><a href="https://www.c-span.org/person/?elonmusk">Appearances</a> on <a
+                        href="https://en.wikipedia.org/wiki/C-SPAN"> C-SPAN</a></li>
+                <li><a href="https://www.imdb.com/name/nm1907769/">Elon Musk</a> on <a
+                        href="https://en.wikipedia.org/wiki/IMDb"> IMDb</a></li>
+                <li><a href="https://www.imdb.com/name/nm1907769/">Elon Musk</a> at <a
+                        href="https://en.wikipedia.org/wiki/TED_(conference)"> TED </a></li>
+                <li><a href="https://www.imdb.com/name/nm1907769/">Elon Musk</a> on <a
+                        href="https://en.wikipedia.org/wiki/Twitter"> Twitter</a></li>
+
+            </ul>
+        </section>
+        <table>
+            <tr>
+                <th><a href="#">V-</a><a href="#">T-</a><a href="#">E</a></th>
+                <th>Elon Musk</th>
+            </tr>
+            <tr>
+                <td>Companies</td>
+                <td>Zip2 (1995–1999) PayPal (1999–2002) SpaceX (2002–present) Tesla, Inc. (2004–present) SolarCity
+                    (2006–present) OpenAI (2015–present) Neuralink (2016–present) The Boring Company (2016–present)</td>
+            </tr>
+            <tr>
+                <td>Other endeavors</td>
+                <td>Hyperloop Wet Nellie Tesla Roadster in space Boring Test Tunnel
+                </td>
+            </tr>
+            <tr>
+                <td>Family</td>
+                <td>
+                    Maye Musk (mother) Justine Musk (first wife) Talulah Riley (second wife) Kimbal Musk (brother) Tosca
+                    Musk (sister) Lyndon Rive (cousin)</td>
+            </tr>
+            <tr>
+                <td>Related</td>
+                <td>Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th><a href="#">V-</a><a href="#">T-</a><a href="#">E</a></th>
+                <th>Tesla</th>
+            </tr>
+            <tr>
+                <td>Vehicles</td>
+                <td><strong>Current:</strong>Model S Model X Model 3
+                    <strong>Discontinued:</strong>
+                    Roadster (2008)
+                    <strong> In development:</strong>
+                    Model Y Semi truck Roadster (2020)
+                    <strong>Joint projects<:/strong> Mercedes A-Class E-Cell Mercedes-Benz B-Class Electric Drive Smart
+                            electric drive Toyota RAV4 EV (second generation)</td> </tr> <tr>
+                <td>Other Products</td>
+                <td>Autopilot Powerwall Solar roof
+                    <img src="Tesla_T_symbol.svg.png"
+                        alt="Tesla.inc">
+                </td>
+            </tr>
+            <tr>
+                <td>Executives</td>
+                <td>Current
+                    Robyn Denholm (Chairman) Elon Musk (CEO) J. B. Straubel (CTO) Zach Kirkhorn (CFO) Franz von
+                    Holzhausen (Chief Designer) Jérôme Guillen (President of Automotive)
+                    Former
+                    Martin Eberhard (co-founder, inaugural CEO) Marc Tarpenning (co-founder, inaugural CFO) Ze'ev Drori
+                    (second CEO)</td>
+            </tr>
+            <tr>
+                <td>Facilities</td>
+                <td>
+                    Tesla Factory (Fremont, CA) European distribution center (Tilburg, Netherlands) Gigafactories
+                    Gigafactory 1 (Clark, NV) Gigafactory 2 (Buffalo, NY) Gigafactory 3 (Shanghai, China) Europe
+                    Superchargers</td>
+
+            </tr>
+            <tr>
+                <td>Related</td>
+                <td>History Timeline Dealership disputes SolarCity Tesla Roadster in space</td>
+            </tr>
+        </table>
+    </article>
+    <footer>
+        <pre>This page was last edited on 10 April 2019, at 02:13 (UTC).</pre>
+        <div>Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By
+            using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of
+            the Wikimedia Foundation, Inc., a non-profit organization.</div>
+
+        <nav>
+            <a href="#">Privacy Policy</a>
+            <a href="#">About Wikipedia</a>
+            <a href="#">Disclaimers</a>
+            <a href="#">Contact Wikipedia</a>
+            <a href="#">Developers</a>
+            <a href="#">Cookie statement</a>
+            <a href="#">Mobile view</a>
+            <a href="#">
+                <img src="https://en.wikipedia.org/static/images/wikimedia-button.png" alt="Wikimedia" align="right">
+            </a>
+            <a href="#">
+                <img src="https://en.wikipedia.org/static/images/poweredby_mediawiki_88x31.png" alt="MediaWiki"
+                    align="right">
+            </a>
+
+        </nav>
+    </footer>
+</body>
+
+</html>
